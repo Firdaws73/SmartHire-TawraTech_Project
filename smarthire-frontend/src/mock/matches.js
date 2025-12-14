@@ -1,23 +1,23 @@
 const matches = [
   {
     id: 1,
-    candidate: "Sara Benali",
+    candidate: "Youssef El Amrani",
     job: "Senior Frontend Engineer · NovaTech",
-    score: 96,
+    score: 95,
     status: "Shortlisted",
   },
   {
     id: 2,
-    candidate: "Adam Keller",
+    candidate: "Fatima Zahra Ouazzani",
     job: "Backend Engineer · CloudForge",
-    score: 89,
+    score: 88,
     status: "Interview scheduled",
   },
   {
     id: 3,
-    candidate: "Leila Haddad",
+    candidate: "Omar Benchekroun",
     job: "Data Scientist · Insightly AI",
-    score: 82,
+    score: 83,
     status: "Reviewing",
   },
 ];

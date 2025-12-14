@@ -9,7 +9,7 @@ export default function Matching() {
           Matching results
         </h2>
         <p className="text-sm text-slate-500">
-          AI‑ranked candidate ↔ job pairs, ready for client review.
+          ranked candidate ↔ job pairs, ready for client review.
         </p>
       </div>
 

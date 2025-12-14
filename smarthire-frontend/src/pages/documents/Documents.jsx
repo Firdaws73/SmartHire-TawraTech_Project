@@ -123,10 +123,7 @@ export default function DocumentsArchive() {
       </div>
 
       {/* Info bar */}
-      <div className="text-[11px] text-slate-400">
-        Demo mode · documents are mock data. Later this table will be filled
-        from your storage (S3, GCS, etc.) and parsing pipeline.
-      </div>
+      
     </div>
   );
 }

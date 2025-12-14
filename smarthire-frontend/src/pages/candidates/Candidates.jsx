@@ -27,8 +27,7 @@ export default function Candidates() {
                 <Th>Role</Th>
                 <Th>Location</Th>
                 <Th>Skills</Th>
-                <Th>Status</Th>
-                <Th className="text-right pr-6">Score</Th>
+              
               </tr>
             </thead>
             <tbody>
@@ -49,12 +48,7 @@ export default function Candidates() {
                   <Td className="text-xs text-slate-600">
                     {c.skills.join(" · ")}
                   </Td>
-                  <Td>
-                    <StatusBadge status={c.status} />
-                  </Td>
-                  <Td className="text-right pr-6 font-semibold text-slate-900">
-                    {c.score}%
-                  </Td>
+                  
                 </tr>
               ))}
             </tbody>

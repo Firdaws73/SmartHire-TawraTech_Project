@@ -8,7 +8,7 @@ export default function Jobs() {
         <div>
           <h2 className="text-2xl font-semibold text-slate-900">Open roles</h2>
           <p className="text-sm text-slate-500">
-            High-impact positions your clients need to fill.
+            High impact positions your clients need to fill.
           </p>
         </div>
         <button className="px-4 py-2 rounded-lg bg-slate-900 text-white text-sm font-medium hover:bg-slate-800">

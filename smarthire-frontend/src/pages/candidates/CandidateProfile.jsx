@@ -6,7 +6,7 @@ export default function CandidateProfile() {
     fullName: "Sara Benali",
     title: "Senior Frontend Engineer",
     location: "Casablanca , M",
-    email: "sara.benali@talentmail.com",
+    email: "sara.benali@gmail.com",
     phone: "+212 698 65 89 78",
     summary:
       "Experienced frontend engineer with strong focus on design systems, performance and polished UX.",
