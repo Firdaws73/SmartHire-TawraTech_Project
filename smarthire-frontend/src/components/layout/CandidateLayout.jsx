@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import logo from "../../assets/logo-tawrah.png";
 
 export default function CandidateLayout({ children }) {
   const { pathname } = useLocation();
@@ -18,9 +19,11 @@ export default function CandidateLayout({ children }) {
         {/* Header brand */}
         <div className="px-6 py-5 border-b border-slate-900 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950">
           <div className="flex items-center gap-2">
-            <div className="h-8 w-8 rounded-xl bg-[#0000ff] flex items-center justify-center text-xs font-bold">
-              T
-            </div>
+            <img
+              src={logo}
+              alt="SmartHire Candidate"
+              className="h-8 w-auto rounded-md object-contain"
+            />
             <div>
               <h1 className="text-lg font-semibold tracking-tight">
                 SmartHire

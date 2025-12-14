@@ -22,13 +22,13 @@ export default function Sidebar() {
 
   return (
     <aside className="w-64 bg-slate-950 text-white flex flex-col border-r border-slate-900">
-      {/* Header brand */}
+      {/* Header brand – même style que CandidateLayout */}
       <div className="px-6 py-5 border-b border-slate-900 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950">
         <div className="flex items-center gap-2">
           <img
             src={logo}
             alt="SmartHire"
-            className="h-7 w-auto"
+            className="h-8 w-auto rounded-md object-contain"
           />
           <div>
             <h1 className="text-lg font-semibold tracking-tight">
