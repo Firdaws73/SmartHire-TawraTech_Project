@@ -25,7 +25,6 @@ export default function Matching() {
               </p>
               <p className="text-xs text-slate-500">{m.job}</p>
               <p className="text-[11px] text-slate-400 mt-1">
-                Status: {m.status}
               </p>
             </div>
             <div className="text-right">

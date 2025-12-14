@@ -17,7 +17,7 @@ export default function Dashboard() {
       <div className="flex items-baseline justify-between gap-4">
         <div>
           <h2 className="text-2xl font-semibold tracking-tight text-slate-900">
-            Morning, Recruiter 👋
+            Morning, Recruiter 
           </h2>
           <p className="text-sm text-slate-500 mt-1">
             Here is the AI pulse of your hiring pipeline.

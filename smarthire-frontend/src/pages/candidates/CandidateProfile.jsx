@@ -5,9 +5,9 @@ export default function CandidateProfile() {
   const profile = {
     fullName: "Sara Benali",
     title: "Senior Frontend Engineer",
-    location: "Casablanca , Morocco",
+    location: "Casablanca , M",
     email: "sara.benali@talentmail.com",
-    phone: "+33 6 12 34 56 78",
+    phone: "+212 698 65 89 78",
     summary:
       "Experienced frontend engineer with strong focus on design systems, performance and polished UX.",
     skills: ["React", "TypeScript", "Tailwind", "Testing", "Design Systems"],
@@ -118,7 +118,7 @@ export default function CandidateProfile() {
 
         <div className="flex justify-end">
           <button className="px-4 py-2 rounded-lg bg-slate-900 text-white text-sm font-medium hover:bg-slate-800">
-            Export profile (PDF · mock)
+            Export profile 
           </button>
         </div>
       </div>

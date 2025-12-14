@@ -31,7 +31,6 @@ export default function Sidebar() {
           <div>
             <h1 className="text-lg font-semibold tracking-tight">SmartHire</h1>
             <p className="text-[11px] text-slate-400 uppercase tracking-[0.16em]">
-              Talent Intelligence
             </p>
           </div>
         </div>

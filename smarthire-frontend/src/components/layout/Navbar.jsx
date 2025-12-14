@@ -17,9 +17,7 @@ export default function Navbar() {
 
       {/* Droite : actions + user */}
       <div className="flex items-center gap-4">
-        <button className="text-xs px-3 py-1 rounded-full border border-slate-200 text-slate-600 hover:bg-slate-50">
-          Switch client
-        </button>
+       
 
         <button className="text-xs px-3 py-1 rounded-full bg-[#0000ff] text-white font-medium shadow-sm hover:bg-blue-700">
           New job
@@ -27,11 +25,11 @@ export default function Navbar() {
 
         <div className="flex items-center gap-2">
           <div className="h-8 w-8 rounded-full bg-[#0000ff] text-white flex items-center justify-center text-xs font-semibold shadow-sm">
-            RB
+            R
           </div>
           <div className="text-right">
             <div className="text-sm font-medium text-slate-700">
-              Recruiter Beta
+              Recruiter 
             </div>
             <div className="text-[11px] text-slate-400">SmartHire · Agency</div>
           </div>
