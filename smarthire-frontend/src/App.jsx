@@ -10,7 +10,7 @@ import Login from "./pages/auth/Login.jsx";
 import CandidateUpload from "./pages/candidates/CandidateUpload.jsx";
 import CandidateProfile from "./pages/candidates/CandidateProfile.jsx";
 import CandidateLayout from "./components/layout/CandidateLayout.jsx";
-import DocumentsArchive from "./pages/Documents/Documents.jsx";
+import DocumentsArchive from "./pages/documents/Documents.jsx";
 import CandidatePortal from "./pages/candidates/CandidatePortal.jsx"
 
 function RecruiterLayout({ children }) {
