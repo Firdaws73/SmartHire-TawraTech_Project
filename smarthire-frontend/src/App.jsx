@@ -7,6 +7,7 @@ import Candidates from "./pages/candidates/Candidates.jsx";
 import Jobs from "./pages/jobs/Jobs.jsx";
 import Matching from "./pages/matching/Matching.jsx";
 import Login from "./pages/auth/Login.jsx";
+import Register from "./pages/auth/Register.jsx";
 import CandidateUpload from "./pages/candidates/CandidateUpload.jsx";
 import CandidateProfile from "./pages/candidates/CandidateProfile.jsx";
 import CandidateLayout from "./components/layout/CandidateLayout.jsx";
@@ -32,12 +33,13 @@ export default function App() {
         {/* Layout RECRUITER */}
         <Route
           path="/login"
-          element={
-            <RecruiterLayout>
-              <Login />
-            </RecruiterLayout>
+          element={<Login />
           }
         />
+        <Route
+          path="/register"
+          element={<Register />}
+        />      
         <Route
           path="/"
           element={
