@@ -41,7 +41,7 @@ const candidates = [
   },
   {
     id: 5,
-    name: "Rachid Chafik",
+    name: "Rachid Chafike",
     email: "rachid.chafik@gmail.com",
     role: "DevOps Engineer",
     location: "Tangier",
