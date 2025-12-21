@@ -13,7 +13,7 @@ import CandidateProfile from "./pages/candidates/CandidateProfile.jsx";
 import CandidateLayout from "./components/layout/CandidateLayout.jsx";
 import DocumentsArchive from "./pages/documents/Documents.jsx";
 import CandidatePortal from "./pages/candidates/CandidatePortal.jsx"
-
+import MyApplications from "./pages/candidates/MyApplications.jsx";
 function RecruiterLayout({ children }) {
   return (
     <div className="flex h-screen bg-slate-100">
@@ -106,6 +106,14 @@ export default function App() {
               <CandidateProfile />
             </CandidateLayout>
           }
+        />
+        <Route 
+          path="/my-applications" 
+          element={
+            <CandidateLayout>
+              <MyApplications />
+            </CandidateLayout>
+          } 
         />
       </Routes>
     </BrowserRouter>

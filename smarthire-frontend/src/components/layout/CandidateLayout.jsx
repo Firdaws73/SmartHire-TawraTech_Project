@@ -8,6 +8,7 @@ export default function CandidateLayout({ children }) {
   const navItems = [
     { label: "Upload CV", to: "/candidate-upload" },
     { label: "My profile", to: "/candidate-profile" },
+    {label: "Mes candidatures", to: "/my-applications"}
   ];
 
   const isActive = (to) => pathname === to;
