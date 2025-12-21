@@ -140,7 +140,8 @@ function PlanCard({ plan, onPlanClick }) {
           </li>
         ))}
       </ul>
-
+ 
+ 
       <button
         className={`w-full mt-auto py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 transform hover:scale-[1.02] active:scale-[0.98] shadow-sm ${
           recommended
