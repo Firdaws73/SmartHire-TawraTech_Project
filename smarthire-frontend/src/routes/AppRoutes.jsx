@@ -11,7 +11,7 @@ import CandidatePortal from "../pages/candidates/CandidatePortal.jsx";
 import CandidateUpload from "../pages/candidates/CandidateUpload.jsx";
 import CandidateProfile from "../pages/candidates/CandidateProfile.jsx";
 import DocumentsArchive from "../pages/Documents/Documents.jsx";
-import Pricing from "../pages/clients/pricing/pricing.jsx";
+import Pricing from "../pages/pricing/pricing.jsx";
 import NewJobPage from "../pages/jobs/newjob.jsx";
 
 export default function AppRoutes() {

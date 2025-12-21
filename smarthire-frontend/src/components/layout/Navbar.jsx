@@ -1,6 +1,5 @@
 import React from "react";
-import Pricing from "../../pages/clients/pricing/pricing";
-
+import Pricing from "../../pages/pricing/pricing";
 export default function Navbar() {
   return (
     <header className="h-14 bg-white/80 backdrop-blur border-b border-slate-200 flex items-center justify-between px-6">
