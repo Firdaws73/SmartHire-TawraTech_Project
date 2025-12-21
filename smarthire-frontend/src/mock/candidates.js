@@ -11,7 +11,7 @@ const candidates = [
   },
   {
     id: 2,
-    name: "Fatima Zahra Ouazzani",
+    name: "Fatima Zahra Ouazani",
     email: "fatima.ouazzani@gmail.com",
     role: "Backend Engineer",
     location: "Rabat",
