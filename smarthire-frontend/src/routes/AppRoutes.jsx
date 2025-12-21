@@ -11,6 +11,8 @@ import CandidatePortal from "../pages/candidates/CandidatePortal.jsx";
 import CandidateUpload from "../pages/candidates/CandidateUpload.jsx";
 import CandidateProfile from "../pages/candidates/CandidateProfile.jsx";
 import DocumentsArchive from "../pages/Documents/Documents.jsx";
+import Pricing from "../pages/clients/pricing/pricing.jsx";
+import NewJobPage from "../pages/jobs/newjob.jsx";
 
 export default function AppRoutes() {
   return (
@@ -20,11 +22,13 @@ export default function AppRoutes() {
       <Route path="/" element={<Dashboard />} />
       <Route path="/candidates" element={<Candidates />} />
       <Route path="/jobs" element={<Jobs />} />
+      <Route path="/jobs/new" element={<Jobs />} />
       <Route path="/matching" element={<Matching />} />
       <Route path="/candidate-portal" element={<CandidatePortal />} />
       <Route path="/candidate-upload" element={<CandidateUpload />} />
       <Route path="/candidate-profile" element={<CandidateProfile />} />
       <Route path="/documents" element={<DocumentsArchive />} />
+      <Route path="/pricing" element={< Pricing/>}/>
 
 
     </Routes>

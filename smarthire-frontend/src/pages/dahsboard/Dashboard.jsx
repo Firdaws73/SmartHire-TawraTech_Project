@@ -23,9 +23,13 @@ export default function Dashboard() {
             Here is the AI pulse of your hiring pipeline.
           </p>
         </div>
-        <button className="px-4 py-2 rounded-lg bg-slate-900 text-white text-sm font-medium hover:bg-slate-800">
-          New job position
-        </button>
+       <label
+  className="px-4 py-2 rounded-lg bg-slate-900 text-white text-sm font-medium hover:bg-slate-800 cursor-pointer"
+  onClick={() => { window.location.href = "/jobs/new"; }}
+>
+  New job position
+</label>
+
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">

@@ -16,6 +16,9 @@ import CandidatePortal from "./pages/candidates/CandidatePortal.jsx"
 import MyApplications from "./pages/candidates/MyApplications.jsx";
 import JobPipeline from "./pages/jobs/JobPipeline.jsx";
 import Clients from "./pages/clients/Clients.jsx";
+import Pricing from "./pages/clients/pricing/pricing.jsx";
+import NewJobPage from "./pages/jobs/newjob.jsx";
+
 function RecruiterLayout({ children }) {
   return (
     <div className="flex h-screen bg-slate-100">
@@ -58,11 +61,27 @@ export default function App() {
             </RecruiterLayout>
           }
         />
+         <Route
+          path="/pricing"
+          element={
+            <RecruiterLayout>
+              <Pricing />
+            </RecruiterLayout>
+          }
+        />
         <Route
           path="/jobs"
           element={
             <RecruiterLayout>
               <Jobs />
+            </RecruiterLayout>
+          }
+        />
+         <Route
+          path="/jobs/new"
+          element={
+            <RecruiterLayout>
+              <NewJobPage />
             </RecruiterLayout>
           }
         />

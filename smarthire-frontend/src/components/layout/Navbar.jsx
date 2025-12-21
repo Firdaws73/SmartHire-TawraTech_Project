@@ -1,4 +1,5 @@
 import React from "react";
+import Pricing from "../../pages/clients/pricing/pricing";
 
 export default function Navbar() {
   return (
@@ -18,10 +19,13 @@ export default function Navbar() {
       {/* Droite : actions + user */}
       <div className="flex items-center gap-4">
        
+<label 
+  className="text-xs px-3 py-1 rounded-full bg-[#0000ff] text-white font-medium shadow-sm hover:bg-blue-700 cursor-pointer select-none inline-block"
+  onClick={() => window.location.href = '/pricing'}
+>
+  Get premium
+</label>
 
-        <button className="text-xs px-3 py-1 rounded-full bg-[#0000ff] text-white font-medium shadow-sm hover:bg-blue-700">
-          New job
-        </button>
 
         <div className="flex items-center gap-2">
           <div className="h-8 w-8 rounded-full bg-[#0000ff] text-white flex items-center justify-center text-xs font-semibold shadow-sm">
