@@ -16,15 +16,15 @@ import CandidatePortal from "./pages/candidates/CandidatePortal.jsx"
 import MyApplications from "./pages/candidates/MyApplications.jsx";
 import JobPipeline from "./pages/jobs/JobPipeline.jsx";
 import Clients from "./pages/clients/Clients.jsx";
-import Pricing from "./pages/clients/pricing/pricing.jsx";
 import NewJobPage from "./pages/jobs/newjob.jsx";
-
+import Pricing
+ from "./pages/pricing/pricing.jsx";
 function RecruiterLayout({ children }) {
   return (
     <div className="flex h-screen bg-slate-100">
       <Sidebar />
       <div className="flex-1 flex flex-col">
-        <Navbar />
+        <Navbar /> try it on ur pc no
         <main className="flex-1 overflow-auto">{children}</main>
       </div>
     </div>
