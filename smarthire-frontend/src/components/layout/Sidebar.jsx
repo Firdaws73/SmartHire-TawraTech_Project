@@ -17,7 +17,10 @@ export default function Sidebar() {
     { label: "Candidates", to: "/candidates" },
     { label: "Jobs", to: "/jobs" },
     { label: "Matching", to: "/matching" },
+    { label: "Pipeline", to: "/pipeline" },       // Le suivi visuel (Kanban)
+    { label: "Clients", to: "/clients" },
     { label: "Documents Archive", to: "/documents" },
+
   ];
 
   return (

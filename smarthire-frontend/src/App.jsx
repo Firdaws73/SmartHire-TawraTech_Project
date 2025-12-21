@@ -14,6 +14,8 @@ import CandidateLayout from "./components/layout/CandidateLayout.jsx";
 import DocumentsArchive from "./pages/documents/Documents.jsx";
 import CandidatePortal from "./pages/candidates/CandidatePortal.jsx"
 import MyApplications from "./pages/candidates/MyApplications.jsx";
+import JobPipeline from "./pages/jobs/JobPipeline.jsx";
+import Clients from "./pages/clients/Clients.jsx";
 function RecruiterLayout({ children }) {
   return (
     <div className="flex h-screen bg-slate-100">
@@ -80,7 +82,8 @@ export default function App() {
             </RecruiterLayout>
           }
         />
-
+<Route path="/pipeline" element={<RecruiterLayout><JobPipeline /></RecruiterLayout>} />
+<Route path="/clients" element={<RecruiterLayout><Clients /></RecruiterLayout>} />
         {/* Layout CANDIDATE – PAS de Sidebar/Navbar recruteur */}
         <Route
           path="/candidate-upload"
